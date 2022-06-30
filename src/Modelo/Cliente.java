@@ -1,11 +1,6 @@
 
 package Modelo;
 
-/**
- *
- * @author Jes011
- * @github https://github.com/Jes011
- */
 public class Cliente {
     private String nombre, direccion, telefono, id;
     
@@ -42,5 +37,10 @@ public class Cliente {
     }
     public void setIdentificacion(String id) {
         this.id = id;
+    }
+    
+    @Override
+    public String toString(){
+        return this.nombre+" - "+this.id;
     }
 }

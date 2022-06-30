@@ -9,6 +9,11 @@ public class Material {
         this.nombre = "";
         this.precio = 0;
     }
+    
+    public Material(String nombre,double precio){
+        this.nombre = nombre;
+        this.precio = precio;
+    }
 
     public String getNombre() {
         return nombre;

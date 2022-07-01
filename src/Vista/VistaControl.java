@@ -170,7 +170,7 @@ public class VistaControl extends javax.swing.JDialog {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        if (jComboBox2.getSelectedIndex() != 0 && jComboBox3.getSelectedIndex()!=0) {
+        if (jComboBox1.getSelectedIndex() != 0 && jComboBox2.getSelectedIndex() != 0 && jComboBox3.getSelectedIndex()!=0) {
             this.proyectos[this.jComboBox1.getSelectedIndex() - 1].getFases()[jComboBox2.getSelectedIndex() - 1].setEstado((byte)jComboBox3.getSelectedIndex());
             actualizarTabla();
         }
